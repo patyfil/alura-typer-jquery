@@ -1,4 +1,5 @@
-# Alura Typer
+# Alura Typer - Parte 1
+obs: Parte 2 em breve em nova branch.  
 
 [Curso de jQuery: domine a biblioteca mais popular do mercado parte 1 - Alura](https://cursos.alura.com.br/course/jquery-a-biblioteca-do-mercado)
 
