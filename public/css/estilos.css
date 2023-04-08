@@ -1,0 +1,48 @@
+.frase {
+  font-size: 20px;
+  text-align: left;
+}
+
+.icones {
+  vertical-align: middle;
+}
+
+.campo-digitacao {
+  font-size: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.campo-desativado {
+  background-color: lightgray;
+}
+
+.borda-verde {
+  border: 3px solid green;
+  outline: none;
+}
+
+.borda-vermelha {
+  border: 3px solid red;
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: #767676;
+  font-size: 14px;
+}
+
+.botoes {
+  padding: 10px;
+}
+
+.numero {
+  font-weight: 700;
+  margin-right: 10px;
+}

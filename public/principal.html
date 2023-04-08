@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Alura Typer</title>
+        <link rel="stylesheet" href="css/libs/materialize.min.css" />
+        <link rel="stylesheet" href="css/libs/google-fonts.css" />
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="center">Alura Typer</h1>
+            <p class="frase center">Um teste de velocidade de digitação é um
+                teste que mede o número de palavras e caracteres que você pode
+                digitar por minuto.<br />Esse teste medirá quantas palavras você
+                consegue digitar em 10 segundos.</p>
+
+            <ul class="informacoes center">
+                <li>
+                    <i class="small material-icons icones">description</i>
+                    <span id="tamanho-frase">0</span>
+                    (Quantidade de palavras que tem nessa frase.)
+                </li>
+                <li>
+                    <i class="small material-icons icones">query_builder</i>
+                    <span id="tempo-digitacao">10</span>
+                    segundos para você digitar
+                </li>
+            </ul>
+
+            <label for="texto">Digite o texto no campo abaixo:</label>
+
+            <textarea class="campo-digitacao"></textarea>
+
+            <div class="show-result">
+                Caracteres:
+                <span id="contador-caracteres" class="numero">0</span>
+                Palavras:
+                <span id="contador-palavras" class="numero">0</span>
+            </div>
+
+            <div class="botoes">
+                <button
+                    id="botao-reiniciar"
+                    class="btn-floating btn-large waves-effect waves-light red">
+                    <i class="material-icons">restore</i>
+                </button>
+            </div>
+
+            <section class="placar">
+                <h3 class="center">Placar</h3>
+                <table class="centered bordered">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>No. de palavras</th>
+                            <th>Remover</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/placar.js"></script>
+    </body>
+</html>
