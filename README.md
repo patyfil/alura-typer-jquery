@@ -1,13 +1,13 @@
 # Alura Typer - Parte 1
 obs: Parte 2 em breve em nova branch.  
-<img src=./public/img/template.png>
+<img src=./img/template.png>
 
 [Curso de jQuery: domine a biblioteca mais popular do mercado parte 1 - Alura](https://cursos.alura.com.br/course/jquery-a-biblioteca-do-mercado)
 
 Um jogo de digitação. Desafie seus amigos e veja quem será o mais rápido 🎮  
 
-<img src=./public/img/tela-ativada.jpg>
-<img src=./public/img/tela-desativada.jpg>
+<img src=./img/tela-ativada.jpg>
+<img src=./img/tela-desativada.jpg>
 
 
 ---
